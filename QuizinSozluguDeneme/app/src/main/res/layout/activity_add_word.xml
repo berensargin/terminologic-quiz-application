@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/addedIng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İngilizce" />
+
+    <EditText
+        android:id="@+id/et_ing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelimenin İngilizcesi"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/addedTurkce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Türkçe" />
+
+    <EditText
+        android:id="@+id/et_tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelimenin Türkçesi"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/addedCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori" />
+
+    <EditText
+        android:id="@+id/et_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kelime kategorisi"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_kaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+</LinearLayout>

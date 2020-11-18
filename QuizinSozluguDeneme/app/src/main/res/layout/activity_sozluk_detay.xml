@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SozlukDetayActivity">
+
+    <TextView
+        android:id="@+id/textViewDetayTur"
+        android:layout_width="476dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="bir yazılım veya donanım özelliğini hizmetten kaldırmak"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDetayIng"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewDetayIng"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDetayIng" />
+
+    <TextView
+        android:id="@+id/textViewDetayIng"
+        android:layout_width="476dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:gravity="center"
+        android:text="erasable programmable read-only memory"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDetayCategory"
+        android:layout_width="238dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="Cat"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDetayTur"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/textViewDetayTur"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDetayTur" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="81dp"
+        android:gravity="fill_vertical"
+        android:text="İngilizcesi:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="74dp"
+        android:gravity="fill_vertical"
+        android:text="Türkçesi:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="172dp"
+        android:gravity="fill_vertical"
+        android:text="Kategori:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

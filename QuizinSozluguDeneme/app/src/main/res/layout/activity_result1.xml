@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result1Activity"
+    android:background="#ff9500">
+
+    <Button
+        android:id="@+id/buttonTekrar"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="250dp"
+        android:background="#000000"
+        android:text="Tekrar Dene"
+        android:textAlignment="center"
+        android:textColor="#ff9500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="58dp"
+        android:text="5 Doğru 1 Yanlış"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/textViewYuzdeSonuc"
+        android:layout_width="223dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="94dp"
+        android:text="%25 BAŞARI"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSonuc"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/yanlislariGor"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="190dp"
+        android:background="#000000"
+        android:text="Yanlışları / Boşları Gör"
+        android:textAlignment="center"
+        android:textColor="#ff9500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/anaSayfayaGit"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="90dp"
+        android:background="#000000"
+        android:text="Ana Sayfaya Git"
+        android:textAlignment="center"
+        android:textColor="#ff9500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
